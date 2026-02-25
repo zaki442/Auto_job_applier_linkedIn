@@ -117,7 +117,7 @@ Zakaria Abid
 user_information_all ="""
 Name: Zakaria Abid
 Title: Full Stack Developer
-Email: ziko442@gmail.com
+Email: zakinassi7@gmail.com
 Phone: (+212) 7 06 08 03 06
 Portfolio: https://ziko442.github.io/my-portfolio
 LinkedIn: https://www.linkedin.com/in/zakaria2abid/
