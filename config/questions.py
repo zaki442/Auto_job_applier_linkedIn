@@ -27,24 +27,24 @@ default_resume_path = "all resumes/default/resume.pdf"      # (In Development)
 years_of_experience = "5"          # A number in quotes Eg: "0","1","2","3","4", etc.
 
 # Do you need visa sponsorship now or in future?
-require_visa = "No"               # "Yes" or "No"
+require_visa = "Yes"              # "Yes" or "No"
 
 # What is the link to your portfolio website, leave it empty as "", if you want to leave this question unanswered
-website = "https://github.com/GodsScion"                        # "www.example.bio" or "" and so on....
+website = "https://ziko442.github.io/my-portfolio"               # "www.example.bio" or "" and so on....
 
 # Please provide the link to your LinkedIn profile.
-linkedIn = "https://www.linkedin.com/in/saivigneshgolla/"       # "https://www.linkedin.com/in/example" or "" and so on...
+linkedIn = "https://www.linkedin.com/in/zakaria2abid/"          # "https://www.linkedin.com/in/example" or "" and so on...
 
 # What is the status of your citizenship? # If left empty as "", tool will not answer the question. However, note that some companies make it compulsory to be answered
 # Valid options are: "U.S. Citizen/Permanent Resident", "Non-citizen allowed to work for any employer", "Non-citizen allowed to work for current employer", "Non-citizen seeking work authorization", "Canadian Citizen/Permanent Resident" or "Other"
-us_citizenship = "U.S. Citizen/Permanent Resident"
+us_citizenship = "Non-citizen seeking work authorization"
 
 
 
 ## SOME ANNOYING QUESTIONS BY COMPANIES 🫠 ##
 
 # What to enter in your desired salary question (American and European), What is your expected CTC (South Asian and others)?, only enter in numbers as some companies only allow numbers,
-desired_salary = 1200000          # 80000, 90000, 100000 or 120000 and so on... Do NOT use quotes
+desired_salary = 80000            # 80000, 90000, 100000 or 120000 and so on... Do NOT use quotes
 '''
 Note: If question has the word "lakhs" in it (Example: What is your expected CTC in lakhs), 
 then it will add '.' before last 5 digits and answer. Examples: 
@@ -56,7 +56,7 @@ And if asked in months, then it will divide by 12 and answer. Examples:
 '''
 
 # What is your current CTC? Some companies make it compulsory to be answered in numbers...
-current_ctc = 800000            # 800000, 900000, 1000000 or 1200000 and so on... Do NOT use quotes
+current_ctc = 70000             # 800000, 900000, 1000000 or 1200000 and so on... Do NOT use quotes
 '''
 Note: If question has the word "lakhs" in it (Example: What is your current CTC in lakhs), 
 then it will add '.' before last 5 digits and answer. Examples: 
@@ -84,12 +84,11 @@ then it will divide by 30 or 7 and answer respectively. Examples:
 '''
 
 # Your LinkedIn headline in quotes Eg: "Software Engineer @ Google, Masters in Computer Science", "Recent Grad Student @ MIT, Computer Science"
-linkedin_headline = "Full Stack Developer with Masters in Computer Science and 4+ years of experience" # "Headline" or "" to leave this question unanswered
+linkedin_headline = "Full Stack Developer | 5+ years of experience | JavaScript, Java, Angular, MERN Stack, .NET, Python, Django" # "Headline" or "" to leave this question unanswered
 
 # Your summary in quotes, use \n to add line breaks if using single quotes "Summary".You can skip \n if using triple quotes """Summary"""
 linkedin_summary = """
-I'm a Senior Software Engineer at Amazon with Masters in CS and 4+ years of experience in developing and maintaining Full Stack Web applications and cloud solutions. 
-Specialized in React, Node.js, and Python.
+Certified Full Stack Developer with 5 years of experience. Versatile, I master the different technical stages of creating a website or web application; from understanding user needs to frontend and backend development, including maintenance. Skilled in JavaScript, Java, Angular, .NET, MERN Stack (MongoDB, Express, React, Node.js), Python, and Django.
 """
 
 '''
@@ -98,14 +97,63 @@ Note: If left empty as "", the tool will not answer the question. However, note 
 
 # Your cover letter in quotes, use \n to add line breaks if using single quotes "Cover Letter".You can skip \n if using triple quotes """Cover Letter""" (This question makes sense though)
 cover_letter = """
-Cover Letter
+Dear Hiring Manager,
+
+I am writing to express my interest in the position. As a Full Stack Developer with 5 years of professional experience, I bring a strong foundation in JavaScript, Java, Angular, .NET, MERN Stack, Python, and Django.
+
+In my current role at Onirique-Ride, I developed a luxury chauffeur service application using the MERN stack, enabling clients to book trips, view trip history, and make payments. Previously, at BRATIL CONSULTING, I built a report generator to automate report writing using .NET and Angular. I have also worked on Full Stack e-commerce platforms with Angular and Java Spring Boot, integrating Stripe payments, JWT authentication, and RESTful APIs.
+
+I am certified in Django for Everybody and Python for Everybody (University of Michigan via Coursera), and I hold a Bachelor's degree in JEE & .NET Development from FSAC HASSAN II University.
+
+I am eager to bring my diverse skill set and passion for building impactful applications to your team. I look forward to discussing how I can contribute to your organization.
+
+Best regards,
+Zakaria Abid
 """
 ##> ------ Dheeraj Deshwal : dheeraj9811 Email:dheeraj20194@iiitd.ac.in/dheerajdeshwal9811@gmail.com - Feature ------
 
 # Your user_information_all letter in quotes, use \n to add line breaks if using single quotes "user_information_all".You can skip \n if using triple quotes """user_information_all""" (This question makes sense though)
 # We use this to pass to AI to generate answer from information , Assuing Information contians eg: resume  all the information like name, experience, skills, Country, any illness etc. 
 user_information_all ="""
-User Information
+Name: Zakaria Abid
+Title: Full Stack Developer
+Email: ziko442@gmail.com
+Phone: (+212) 7 06 08 03 06
+Portfolio: https://ziko442.github.io/my-portfolio
+LinkedIn: https://www.linkedin.com/in/zakaria2abid/
+Location: Bouznika, Casablanca-Settat, Morocco
+
+Summary:
+Certified Full Stack Developer with 5 years of experience. Versatile, mastering the different technical stages of creating a website or web application; from understanding user needs to frontend and backend development, including maintenance.
+
+Work Experience:
+- Full Stack Developer at Onirique-Ride (Jan 2023 - Present): Developed a luxury chauffeur service application using MERN stack (MongoDB, Express, React, Node.js). Clients can book trips, view trip history, and make payments.
+- Full Stack Developer at valldev (Current, per LinkedIn)
+- Inventory Management / Developer at Leley Boutique LLC (Aug 2022 - Feb 2023): Developed a Full Stack Book Store website using Angular and Java Spring Boot with Stripe payments, JWT, APIs.
+- Full Stack Developer at BRATIL CONSULTING (Feb 2021 - Jul 2022): Report generator project to automate report writing for Dekra control offices using .NET and Angular.
+- Full Stack Developer (Intern) at LIBENS CONSULTING (Jun 2020 - Jan 2021): Six-month internship using Java and Angular.
+- Full Stack Developer (Intern) at FSAC (Jan 2018 - Jan 2020): Two-year internship using Java and Angular.
+
+Education:
+- Bachelor's Degree (Licence) in JEE & DOTNET Development, Faculty of Sciences Ain Chock (FSAC) HASSAN II (2018-2019)
+- Specialized Technician Diploma in Computer Science Development, TSDI (2017-2018)
+- HASSAN II University, Mathematics, Physics, Chemistry, and Sciences (2015-2016)
+
+Certifications:
+- Django for Everybody Specialization (University of Michigan via Coursera)
+- Python for Everybody Specialization (University of Michigan via Coursera)
+- Machine Learning Specialization (Coursera)
+- Python (Basic) (HackerRank)
+- Agile with Atlassian Jira (Coursera)
+- Full Stack: Angular and Java Spring Boot E-Commerce Website (Udemy)
+
+Skills:
+- Programming Languages: JavaScript, Java, Angular, .NET, MERN Stack, Python, Django
+- Backend: Java (Spring, Spring Boot, Hibernate), C# (.NET Core, ASP.NET Core), Python (FastAPI, Django), Node.js
+- Frontend: Angular, React JS, JavaScript, HTML, CSS
+- Databases: MySQL, MongoDB, PostgreSQL
+- DevOps/Tools: Docker, Kubernetes, AWS, Redis, Apache Kafka, Jenkins, Git/GitLab, Postman, Swagger
+- Cybersecurity: Kali Linux, Nmap, Wireshark, Burp Suite, Ethical Hacking (XSS, SQLI), TCP/IP Protocols
 """
 ##<
 '''
@@ -113,7 +161,7 @@ Note: If left empty as "", the tool will not answer the question. However, note 
 ''' 
 
 # Name of your most recent employer
-recent_employer = "Not Applicable" # "", "Lala Company", "Google", "Snowflake", "Databricks"
+recent_employer = "Onirique-Ride"   # "", "Lala Company", "Google", "Snowflake", "Databricks"
 
 # Example question: "On a scale of 1-10 how much experience do you have building web or mobile applications? 1 being very little or only in school, 10 being that you have built and launched applications to real users"
 confidence_level = "8"             # Any number between "1" to "10" including 1 and 10, put it in quotes ""
