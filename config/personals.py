@@ -24,7 +24,7 @@ middle_name = ""                    # Your name in quotes Eg: "Middle", "Vignesh
 last_name = "Abid"                  # Your last name in quotes Eg: "Last", "Golla"
 
 # Phone number (required), make sure it's valid.
-phone_number = "706080306"         # Enter your 10 digit number in quotes Eg: "9876543210"
+phone_number = "0706080306"         # Enter your 10 digit number in quotes Eg: "9876543210"
 
 # What is your current city?
 current_city = "Bouznika"          # Los Angeles, San Francisco, etc.
